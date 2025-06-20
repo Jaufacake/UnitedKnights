@@ -3271,7 +3271,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #1614c0;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3390,12 +3390,12 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #1614c0;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #1614c0;
 		}
 
 		#main a:hover {
@@ -3407,7 +3407,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #1614c0;
 		}
 
 		#main blockquote {
@@ -3496,7 +3496,7 @@ input, select, textarea {
 				}
 
 		#main label {
-			color: #636363;
+			color: #1614c0;
 		}
 
 		#main input[type="text"],
