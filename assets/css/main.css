@@ -132,7 +132,14 @@ input, select, textarea {
   display: flex;
   align-items: stretch;
   gap: 1.5em;
+  margin-top: -50px;
+  margin-bottom: 20px;
 }
+
+#header.alt .header-content .header-text h1 {
+  font-size: 50px;
+}
+
 
 /* Basic */
 
