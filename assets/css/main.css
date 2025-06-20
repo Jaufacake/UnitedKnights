@@ -3105,6 +3105,25 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+			#header.alt .header-content {
+  				display: flex;
+  				align-items: center; /* Align items vertically */
+  				justify-content: flex-start;
+  				gap: 1.5em; /* Adds spacing between logo and text */
+			}
+
+			#header.alt .logo {
+  				margin: 0; /* Remove old bottom margin */
+  				display: block;
+  				flex-shrink: 0; /* Prevent logo from shrinking */
+			}
+
+			#header.alt .logo img {
+  				display: block;
+  				max-width: 100px; /* Adjust as needed */
+  				height: auto;
+			}
+
 			#header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
