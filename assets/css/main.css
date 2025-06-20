@@ -128,6 +128,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+#header.alt .header-content {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
