@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -68,6 +68,25 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 
 ol, ul {
@@ -3140,24 +3159,6 @@ input, select, textarea {
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 				opacity: 1;
-			}
-
-			#header.alt .header-content {
-  				display: flex;
-  				align-items: center; /* Align items vertically */
-  				justify-content: flex-start;
-  				gap: 1.5em; /* Adds spacing between logo and text */
-			}
-
-			#header.alt .logo {
-  				margin: 0; /* Remove old bottom margin */
-  				display: block;
-  				flex-shrink: 0; /* Prevent logo from shrinking */
-			}
-
-			#header.alt .logo img {
-  				display: block;
-  				height: auto;
 			}
 
 			#header.alt .logo {
