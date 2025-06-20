@@ -2654,7 +2654,7 @@ input, select, textarea {
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
-					margin-left: auto;
+					margin-left: 50px;
 					margin-right: auto;
 				}
 
