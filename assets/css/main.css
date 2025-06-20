@@ -156,10 +156,10 @@ input, select, textarea {
 
 	body {
 		background-color: #fc8787;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #3a29d1 15%, #e23131 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #3a29d1 15%,  #e23131 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #3a29d1 15%,  #e23131 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #3a29d1 15%,  #e23131 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #fff4d0 15%, #fff4d0 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
