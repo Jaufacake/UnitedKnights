@@ -3270,13 +3270,19 @@ input, select, textarea {
 				}
 
 					#header.alt h1 {
-						font-size: 1.7em;
-						margin-left: -50px !important;
+						font-size: 3.5em !important;
+						margin-left: -30px !important;
 					}
 
-						/* #header > div > span > img {
-							width: 100% !important;
-						} */
+					#header.alt p {
+						margin-left: -30px !important;
+					}
+
+					
+
+						#header > div > span > img {
+							width: 175px !important;
+						}
 
 		}
 
@@ -3292,7 +3298,11 @@ input, select, textarea {
 
 				#header.alt h1 {
 					font-size: 2.5em !important;
-					margin-left: 0px !important;
+					margin-left: -50px !important;
+				}
+
+				#header.alt p {
+					margin-left: -50px !important;
 				}
 
 				#header > div > span > img {
