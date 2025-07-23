@@ -34,6 +34,15 @@ body {
 	line-height: 1;
 }
 
+/* Learn more title */
+.learn-more-title {
+	font-family: "Comic Neue", cursive;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 90px !important;
+	padding-bottom: 50px !important;
+}
+
 .comic-neue-light {
   font-family: "Comic Neue", cursive;
   font-weight: 300;
@@ -2718,11 +2727,15 @@ input, select, textarea {
 
 			ul.icons li:last-child {
 				padding-right: 0 !important;
-			}
+			}			
 
 /* Section/Article */
 
 	section.special, article.special {
+		text-align: center;
+	}
+
+	section.longer {
 		text-align: center;
 	}
 
@@ -2749,6 +2762,16 @@ input, select, textarea {
 					margin-right: auto;
 				}
 
+				section.longer header.major h2:after, article.longer header.major h2:after {
+					width: 20em;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+				section.longer header.major {
+					text-align: center;
+				}
+
 		header.major p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
@@ -2762,6 +2785,7 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 			}
+		
 
 	footer.major {
 		margin-top: 3em;
@@ -3184,7 +3208,7 @@ input, select, textarea {
 
 			#header.alt h1 {
 				/* font-size: 3.25em; */
-				font-size: 4em;
+				font-size: 4.5em;
 			}
 
 			#header.alt > * {
@@ -3214,9 +3238,25 @@ input, select, textarea {
 
 				#header.alt .logo img {
 					display: block;
-					margin: 0 auto -10px -55px;
+					margin: 0 auto -10px 0px;
 					width: 200px;
 				}
+		
+		@media screen and (max-width: 1700px) {
+
+			#header {
+				padding: 7em 5em -100px 5em  ;
+			}
+
+				#header.alt {
+					padding: 7em 5em -100px 5em  ;
+				}
+
+				#header.alt h1 {
+					font-size: 4em !important;
+				}
+
+		}
 
 		@media screen and (max-width: 1280px) {
 
@@ -3229,7 +3269,7 @@ input, select, textarea {
 				}
 
 				#header.alt h1 {
-					font-size: 5em !important;
+					font-size: 4em !important;
 				}
 
 		}
@@ -3245,7 +3285,7 @@ input, select, textarea {
 				}
 
 				#header.alt h1 {
-					font-size: 4em !important;
+					font-size: 3.5em !important;
 				}
 
 		}
