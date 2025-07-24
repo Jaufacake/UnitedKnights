@@ -97,6 +97,29 @@ body {
   font-style: normal;
 }
 
+/* Slogan styling */
+.line-height {
+	line-height: 1.0;
+}
+
+.play-colour {
+	color: red;
+}
+
+.top-padding {
+	display: inline-block;
+	/* padding-right: 225px; */
+}
+
+.bottom-padding {
+	display: inline-block;
+	/* padding-left: 125px; */
+}
+
+.line-break {
+	display: none;
+}
+
 
 
 ol, ul {
@@ -2944,6 +2967,19 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 980px) {
+			.line-break {
+				display: none !important;
+			}
+
+			.top-padding {
+				display: inline-block !important;
+				padding-right: 0px !important;
+			}
+
+			.bottom-padding {
+				display: inline-block !important;
+				padding-left: 0px !important;
+			}	
 
 			.features li {
 				width: calc(50% - 2em);
@@ -3243,6 +3279,20 @@ input, select, textarea {
 				}
 		
 		@media screen and (max-width: 1700px) {
+
+			.line-break {
+        		display: inline;
+    		}
+
+			.top-padding {
+				display: block;
+				padding-right: 225px;
+			}
+
+			.bottom-padding {
+				display: block;
+				padding-left: 125px; 
+			}
 
 			#header {
 				padding: 7em 5em -100px 5em  ;
