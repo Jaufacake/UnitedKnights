@@ -2829,13 +2829,7 @@ input, select, textarea {
 				}
 
 				section.longer header.major h2:after, article.longer header.major h2:after {
-					width: 20em;
-					margin-left: auto;
-					margin-right: auto;
-				}
-
-				section.longer header.major {
-					text-align: center;
+					display: none;
 				}
 
 		header.major p {
