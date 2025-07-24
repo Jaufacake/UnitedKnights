@@ -34,6 +34,49 @@ body {
 	line-height: 1;
 }
 
+/*Flyer image*/
+
+.image-styling {
+	width: 700px;
+	height: 700px;
+}
+
+@media screen and (max-width: 980px) {
+
+		.image-styling {
+			width: 500px;
+			height: 500px;
+		}
+
+}
+
+@media screen and (max-width: 650px) {
+
+		.image-styling {
+			width: 400px;
+			height: 400px;
+		}
+
+}
+
+@media screen and (max-width: 550px) {
+
+		.image-styling {
+			width: 300px;
+			height: 300px;
+		}
+
+}
+
+@media screen and (max-width: 400px) {
+
+		.image-styling {
+			width: 250px;
+			height: 250px;
+		}
+
+}
+
 /* Learn more title */
 .learn-more-title {
 	font-family: "Comic Neue", cursive;
