@@ -57,6 +57,94 @@ body {
 			height: 400px;
 		}
 
+		.images-styles {
+			width: 400px !important;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 40px;
+		}
+
+		.learn-more-title {
+			font-size: 20px !important;
+		}
+
+}
+
+@media screen and (max-width: 1050px) {
+	.smaller-images {
+		height: 300px !important;
+		width: auto !important;
+ 		object-fit: contain;
+		padding-bottom: 40px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.smaller-images {
+		height: 250px !important;
+		width: auto !important;
+ 		object-fit: contain;
+		padding-bottom: 40px;
+	}
+}
+
+.iframe-wrapper {
+	width: 100%;
+	position: relative;
+  	max-width: 1000px;
+  	aspect-ratio: 10 / 7; /* roughly 1000x700 */
+  	overflow: hidden;
+}
+.facebook-post {
+    padding-left: 25%;
+  	display: flex;
+ 	justify-content: center;
+  	padding-bottom: 40px;
+  	width: 100%;
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 850px) {
+	.facebook-post {
+    padding-left: 0;
+  }
+
+  .iframe-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+	.facebook-post {
+    padding-left: 0;
+  }
+
+  .iframe-wrapper {
+    display: none;
+  }
+
+  .remove-post {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+	.smaller-images {
+		height: 200px !important;
+		width: auto !important;
+ 		object-fit: contain;
+		padding-bottom: 40px;
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -66,6 +154,15 @@ body {
 			height: 300px;
 		}
 
+		.images-styles {
+			width: 300px !important;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 40px;
+		}
+
 }
 
 @media screen and (max-width: 400px) {
@@ -73,6 +170,15 @@ body {
 		.image-styling {
 			width: 250px;
 			height: 250px;
+		}
+
+		.images-styles {
+			width: 250px !important;
+			height: auto;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 40px;
 		}
 
 }
@@ -143,10 +249,23 @@ body {
 /* Slogan styling */
 .line-height {
 	line-height: 1.0;
+	text-align: center;
 }
 
 .play-colour {
 	color: red;
+}
+
+.text-center p {
+	text-align: center;
+}
+
+.green-colour {
+	color: green;
+}
+
+.cream-colour {
+	color: peru;
 }
 
 .top-padding {
@@ -163,6 +282,21 @@ body {
 	display: none;
 }
 
+.images-styles {
+	width: 500px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+
+
+.smaller-images {
+	height: 400px;
+ 	object-fit: contain;
+	padding-bottom: 40px;
+}
 
 
 ol, ul {
@@ -249,11 +383,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ff000058;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #fff4d0 15%, #fff4d0 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%);
+		background-color: #fffcf9 !important;
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffffff 15%, #ffffff 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffffff 15%,  #ffffff 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffffff 15%,  #ffffff 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #fff4d0 15%,  #fff4d0 85%); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -335,6 +469,7 @@ input, select, textarea {
   		font-family: "Comic Neue", cursive;
   		font-weight: 400;
   		font-style: normal;
+		text-align: justify;
 	}
 
 		p.content {
@@ -2582,7 +2717,13 @@ input, select, textarea {
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 1em;
+			padding-bottom: 0.5em;
+			text-align: justify;
+			font-family: "Comic Neue", cursive;
+  			font-weight: 400;
+  			font-style: normal;
+			color: #06295e;
 		}
 
 	ul {
@@ -2592,7 +2733,13 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 1em;
+			padding-bottom: 0.5em;
+			text-align: justify;
+			font-family: "Comic Neue", cursive;
+  			font-weight: 400;
+  			font-style: normal;
+			color: #06295e;
 		}
 
 		ul.alt {
@@ -3323,12 +3470,12 @@ input, select, textarea {
 
 			.top-padding {
 				display: block;
-				padding-right: 225px;
+				padding-right: 120px;
 			}
 
 			.bottom-padding {
 				display: block;
-				padding-left: 125px; 
+				padding-left: 25px; 
 			}
 
 			#header {
@@ -3397,7 +3544,7 @@ input, select, textarea {
 				}
 
 					#header.alt h1 {
-						font-size: 3.5em !important;
+						font-size: 2.5em !important;
 						margin-left: -30px !important;
 					}
 
@@ -3474,7 +3621,7 @@ input, select, textarea {
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
-		padding: 1em;
+		padding: 0.25em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
@@ -3802,7 +3949,18 @@ input, select, textarea {
 			color: #636363;
 		}
 
+		#main header.major h2 {
+  			display: inline-block; /* so the ::after can size relative to the text */
+  			position: relative;    /* required for absolute positioning inside */
+		}
+
 		#main header.major h2:after {
+			content: "";
+  			display: block;
+  			height: 3px; /* adjust as needed */
+  			width: 100%; /* matches the width of the h2 text */
+  			margin-top: 10px;
+
 			background-color: #dddddd;
 			background-image: -moz-linear-gradient(90deg, #ff0000, #ffb6c5, #ff0000);
 			background-image: -webkit-linear-gradient(90deg, #ff0000,  #ffb6c5, #ff0000);
