@@ -3960,6 +3960,7 @@ input, select, textarea {
   			height: 3px; /* adjust as needed */
   			width: 100%; /* matches the width of the h2 text */
   			margin-top: 10px;
+			margin-bottom: -35px;
 
 			background-color: #dddddd;
 			background-image: -moz-linear-gradient(90deg, #ff0000, #ffb6c5, #ff0000);
