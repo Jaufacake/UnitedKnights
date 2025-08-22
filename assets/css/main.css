@@ -81,6 +81,11 @@ body {
 	}
 }
 
+@media screen and (max-width: 750px) {
+	#main header.major h2:after {
+		margin-bottom: 0px !important;
+	}
+}			
 
 @media screen and (max-width: 800px) {
 	.smaller-images {
