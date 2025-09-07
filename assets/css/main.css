@@ -41,6 +41,14 @@ body {
 	height: 700px;
 }
 
+.nav-styling li {
+	color:white !important;
+}
+
+.subtitles {
+	color:red !important;
+}
+
 @media screen and (max-width: 980px) {
 
 		.image-styling {
@@ -3622,12 +3630,12 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #06295e;
+		color: #ffffff;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 0.25em;
-		background-color: #f7f7f7;
+		background-color: #06295e;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3699,13 +3707,13 @@ input, select, textarea {
 				}
 
 					#nav ul li a:not(.active):hover {
-						background-color: #06295e;
+						background-color: #ff0000;
 						color: white;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
-						color: #ff0000;
+						background-color: #ff0000;
+						color: #ffffff;
 						box-shadow: none;
 					}
 
@@ -3713,7 +3721,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #06295e;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
